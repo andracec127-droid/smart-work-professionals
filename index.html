@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Smart Work Professionals | Ecuadorian Talent. Global Business.</title>
+<meta name="description" content="Smart Work Professionals connects global businesses with exceptional Ecuadorian and Latin American talent. Build reliable remote teams across finance, accounting, tax, engineering, executive support and automation.">
+<meta name="theme-color" content="#0b1220">
+<style>
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap');
+:root{--navy:#0b1220;--navy2:#111c30;--ink:#142033;--muted:#617087;--line:#e5eaf1;--blue:#2d6cdf;--light:#f5f8fc;--white:#fff}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:"DM Sans",sans-serif;color:var(--ink);background:#fff;line-height:1.6}a{text-decoration:none;color:inherit}.container{width:min(1160px,calc(100% - 40px));margin:auto}
+nav{height:78px;display:flex;align-items:center;justify-content:space-between;position:relative;z-index:5}.brand{display:flex;align-items:center;gap:11px;font-family:Manrope,sans-serif;font-weight:800;letter-spacing:-.6px;font-size:19px}.mark{width:34px;height:34px;border:2px solid var(--blue);border-radius:10px;display:grid;place-items:center;color:var(--blue);font-weight:800}.links{display:flex;gap:30px;color:#59677b;font-size:14px;font-weight:600}.links a:hover{color:var(--blue)}.navbtn{background:var(--navy);color:#fff;padding:11px 18px;border-radius:8px;font-size:14px;font-weight:700}
+.hero{background:radial-gradient(circle at 80% 20%,rgba(45,108,223,.18),transparent 35%),linear-gradient(135deg,#f7f9fc 0%,#fff 60%);padding:72px 0 92px;border-bottom:1px solid var(--line)}.eyebrow{display:inline-flex;align-items:center;gap:8px;color:var(--blue);font-size:13px;font-weight:800;text-transform:uppercase;letter-spacing:1.5px}.dot{width:7px;height:7px;background:var(--blue);border-radius:50%}.hero h1{font-family:Manrope,sans-serif;font-size:clamp(48px,7vw,82px);line-height:1.02;letter-spacing:-4px;max-width:850px;margin:20px 0}.hero h1 span{color:var(--blue)}.hero p{font-size:19px;color:var(--muted);max-width:680px;margin:0 0 30px}.actions{display:flex;gap:12px;flex-wrap:wrap}.btn{padding:14px 21px;border-radius:8px;font-weight:700;font-size:15px;display:inline-flex;align-items:center;gap:8px}.primary{background:var(--blue);color:#fff}.secondary{border:1px solid #d8e0ea;background:#fff}.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--line);margin-top:60px;border:1px solid var(--line);border-radius:12px;overflow:hidden}.stat{background:#fff;padding:22px 25px}.stat strong{font-family:Manrope;font-size:25px}.stat span{display:block;color:var(--muted);font-size:13px;margin-top:2px}
+section{padding:92px 0}.sectionhead{max-width:700px;margin-bottom:45px}.kicker{color:var(--blue);font-size:12px;font-weight:800;letter-spacing:1.5px;text-transform:uppercase}.sectionhead h2{font-family:Manrope;font-size:42px;line-height:1.12;letter-spacing:-1.8px;margin:10px 0 15px}.sectionhead p{color:var(--muted);font-size:17px}.why{background:var(--navy);color:#fff}.why .sectionhead p{color:#aeb9c9}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.card{border:1px solid var(--line);border-radius:13px;padding:27px;background:#fff}.why .card{background:rgba(255,255,255,.05);border-color:rgba(255,255,255,.1)}.icon{width:42px;height:42px;border-radius:10px;background:#edf3ff;color:var(--blue);display:grid;place-items:center;font-weight:800;margin-bottom:20px}.why .icon{background:rgba(45,108,223,.18)}.card h3{font-family:Manrope;font-size:19px;margin:0 0 8px}.card p{color:var(--muted);font-size:14px;margin:0}.why .card p{color:#aeb9c9}
+.talent{background:var(--light)}.talentgrid{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}.role{background:#fff;border:1px solid var(--line);padding:23px;border-radius:12px;display:flex;justify-content:space-between;align-items:center}.role strong{font-family:Manrope}.role small{color:var(--muted)}.arrow{color:var(--blue);font-size:20px}
+.process{display:grid;grid-template-columns:repeat(4,1fr);gap:15px}.step{padding:25px;border-top:2px solid var(--blue)}.num{font-family:Manrope;font-size:13px;color:var(--blue);font-weight:800}.step h3{font-family:Manrope;margin:10px 0 5px}.step p{font-size:14px;color:var(--muted);margin:0}
+.cta{background:linear-gradient(135deg,var(--navy),#172a49);color:#fff;border-radius:18px;padding:65px;margin-bottom:92px;display:flex;justify-content:space-between;gap:40px;align-items:center}.cta h2{font-family:Manrope;font-size:40px;line-height:1.1;letter-spacing:-1.5px;margin:0 0 12px}.cta p{color:#b8c3d2;max-width:600px;margin:0}.cta .primary{background:#fff;color:var(--navy)}
+footer{border-top:1px solid var(--line);padding:35px 0;color:var(--muted);font-size:13px}.foot{display:flex;justify-content:space-between;gap:20px}.foot strong{color:var(--ink)}
+@media(max-width:800px){.links{display:none}.hero{padding:55px 0 70px}.hero h1{letter-spacing:-2.5px}.stats,.grid,.process,.talentgrid{grid-template-columns:1fr}.cta{padding:38px 28px;display:block}.cta .btn{margin-top:25px}.sectionhead h2{font-size:34px}section{padding:70px 0}.foot{display:block}.foot div+div{margin-top:12px}}
+</style>
+</head>
+<body>
+<header><div class="container"><nav>
+<a class="brand" href="#"><span class="mark">SW</span> Smart Work Professionals</a>
+<div class="links"><a href="#why">Why Ecuador</a><a href="#talent">Our Talent</a><a href="#process">How It Works</a><a href="#contact">Contact</a></div>
+<a class="navbtn" href="#contact">Build Your Team</a>
+</nav></div></header>
+
+<main>
+<section class="hero"><div class="container">
+<div class="eyebrow"><span class="dot"></span> Ecuadorian talent · Global reach</div>
+<h1>Your global team, <span>powered by Ecuadorian talent.</span></h1>
+<p>Smart Work Professionals helps international companies build reliable remote teams with highly skilled professionals from Ecuador and Latin America.</p>
+<div class="actions"><a class="btn primary" href="#contact">Build Your Team →</a><a class="btn secondary" href="#talent">Explore Our Talent</a></div>
+<div class="stats"><div class="stat"><strong>Global</strong><span>Companies across borders</span></div><div class="stat"><strong>Ecuador</strong><span>Our core talent market</span></div><div class="stat"><strong>Long-term</strong><span>Relationships, not transactions</span></div></div>
+</div></section>
+
+<section id="why" class="why"><div class="container"><div class="sectionhead"><div class="kicker">Why SWP</div><h2>Talent that fits your business.</h2><p>We combine local knowledge with an international mindset to make building a remote team simpler, more personal, and more reliable.</p></div>
+<div class="grid">
+<div class="card"><div class="icon">01</div><h3>Personally Screened</h3><p>We meet and evaluate professionals before introducing them to your business.</p></div>
+<div class="card"><div class="icon">02</div><h3>Time-Zone Compatible</h3><p>Ecuadorian professionals can work naturally with North American and international teams.</p></div>
+<div class="card"><div class="icon">03</div><h3>Built for the Long Term</h3><p>We focus on strong professional relationships rather than one-off placements.</p></div>
+</div></div></section>
+
+<section id="talent" class="talent"><div class="container"><div class="sectionhead"><div class="kicker">Our Talent</div><h2>Professionals ready to work globally.</h2><p>We source and match talent around the roles your business actually needs.</p></div>
+<div class="talentgrid">
+<div class="role"><div><strong>Accounting & Finance</strong><br><small>Accounting, financial analysis & operations</small></div><span class="arrow">↗</span></div>
+<div class="role"><div><strong>Tax & Professional Services</strong><br><small>Tax support, research & technical operations</small></div><span class="arrow">↗</span></div>
+<div class="role"><div><strong>Executive Support</strong><br><small>Executive assistants & business operations</small></div><span class="arrow">↗</span></div>
+<div class="role"><div><strong>Engineering & Technology</strong><br><small>Technical and engineering professionals</small></div><span class="arrow">↗</span></div>
+<div class="role"><div><strong>Automation</strong><br><small>AI, automation & process improvement</small></div><span class="arrow">↗</span></div>
+<div class="role"><div><strong>Custom Teams</strong><br><small>Tell us the profile you need</small></div><span class="arrow">↗</span></div>
+</div></div></section>
+
+<section id="process"><div class="container"><div class="sectionhead"><div class="kicker">How It Works</div><h2>Simple for you. Personal for us.</h2></div>
+<div class="process"><div class="step"><div class="num">01 / DISCOVER</div><h3>Tell us what you need.</h3><p>We understand your role, workflow, expectations and team culture.</p></div><div class="step"><div class="num">02 / MATCH</div><h3>We find the fit.</h3><p>We identify and screen professionals aligned with your requirements.</p></div><div class="step"><div class="num">03 / MEET</div><h3>You choose your talent.</h3><p>Meet qualified candidates and select the professional who fits your team.</p></div><div class="step"><div class="num">04 / GROW</div><h3>Build for the long term.</h3><p>We stay focused on a productive, lasting working relationship.</p></div></div></div></section>
+
+<section id="contact" style="padding-top:20px"><div class="container"><div class="cta"><div><div class="kicker">Start a conversation</div><h2>Build your global team.</h2><p>Tell us what you are looking for and let’s explore how Ecuadorian talent can fit into your business.</p></div><a class="btn primary" href="mailto:hello@smartworkprofessionals.com">Contact SWP →</a></div></div></section>
+</main>
+<footer><div class="container foot"><div><strong>Smart Work Professionals</strong><br>Ecuadorian Talent. Global Business.</div><div>© 2026 Smart Work Professionals. All rights reserved.</div></div></footer>
+</body></html>
